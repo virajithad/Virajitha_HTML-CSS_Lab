@@ -1,0 +1,49 @@
+header h1 {
+    color: black;
+    background-color: red;
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+}
+.navigation {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+.menu {
+    background-color: #7F7F7F;
+    margin: 0%;
+}
+.menu li {
+    padding: 10px;
+    display: inline-block;
+}
+.menu li a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+.menu li :hover {
+    background-color: black;
+}
+.submenu {
+    position: absolute;
+    background-color: #F5f5f5;
+    padding: 0;
+    display: none;
+    top: 45px;
+}
+.menu li:hover .submenu {
+    display: block;
+}
+.submenu li {
+    display: block;
+}
+.submenu li:hover {
+    background-color: gainsboro;
+}
+.submenu li a {
+    color: #5596ca;
+    font-size: 16px;
+}

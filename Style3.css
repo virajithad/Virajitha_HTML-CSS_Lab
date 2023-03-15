@@ -1,0 +1,41 @@
+video {
+    position: fixed;
+}
+.form-container{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px 40px;
+}
+input {
+    padding: 10px;
+    border: none;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+    background-color: steelblue;
+    opacity: 0.6;
+
+}
+button {
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 80px;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #AF66F2;
+}
